@@ -13,6 +13,19 @@
 		3CA558C81D4EC5EE00512966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA558C61D4EC5EE00512966 /* Main.storyboard */; };
 		3CA558CA1D4EC5EE00512966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CA558C91D4EC5EE00512966 /* Assets.xcassets */; };
 		3CA558CD1D4EC5EE00512966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA558CB1D4EC5EE00512966 /* LaunchScreen.storyboard */; };
+		3CA558D51D4ED4AF00512966 /* AlarmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA558D41D4ED4AF00512966 /* AlarmCell.swift */; };
+		3CA558D91D4EE7D500512966 /* SetEditAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA558D81D4EE7D500512966 /* SetEditAlarmViewController.swift */; };
+		3CA558DC1D4EFC6900512966 /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA558DB1D4EFC6900512966 /* Alarm.swift */; };
+		3CA558DE1D4F3EEE00512966 /* StopAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA558DD1D4F3EEE00512966 /* StopAlarmViewController.swift */; };
+		3CA558E11D4F588000512966 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA558E01D4F588000512966 /* Constants.swift */; };
+		3CD250511D519DB400A495DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CD250501D519DB400A495DF /* GoogleService-Info.plist */; };
+		3CD250581D52E99300A495DF /* 0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CD250531D52E99300A495DF /* 0.mp3 */; };
+		3CD250591D52E99300A495DF /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CD250541D52E99300A495DF /* 1.mp3 */; };
+		3CD2505A1D52E99300A495DF /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CD250551D52E99300A495DF /* 2.mp3 */; };
+		3CD2505B1D52E99300A495DF /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CD250561D52E99300A495DF /* 3.mp3 */; };
+		3CD2505C1D52E99300A495DF /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3CD250571D52E99300A495DF /* 4.mp3 */; };
+		3CD250611D52F9DC00A495DF /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD250601D52F9DC00A495DF /* UIScrollView+EmptyDataSet.m */; };
+		42D83FDE24196E0385D7EC83 /* Pods_getup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF7E7A2CDF81AA4745562D2 /* Pods_getup.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,23 @@
 		3CA558C91D4EC5EE00512966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CA558CC1D4EC5EE00512966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CA558CE1D4EC5EE00512966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA558D41D4ED4AF00512966 /* AlarmCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmCell.swift; sourceTree = "<group>"; };
+		3CA558D81D4EE7D500512966 /* SetEditAlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetEditAlarmViewController.swift; sourceTree = "<group>"; };
+		3CA558DB1D4EFC6900512966 /* Alarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		3CA558DD1D4F3EEE00512966 /* StopAlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopAlarmViewController.swift; sourceTree = "<group>"; };
+		3CA558E01D4F588000512966 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3CD250501D519DB400A495DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3CD250531D52E99300A495DF /* 0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0.mp3; sourceTree = "<group>"; };
+		3CD250541D52E99300A495DF /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		3CD250551D52E99300A495DF /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		3CD250561D52E99300A495DF /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		3CD250571D52E99300A495DF /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		3CD2505E1D52F9DB00A495DF /* getup-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "getup-Bridging-Header.h"; sourceTree = "<group>"; };
+		3CD2505F1D52F9DC00A495DF /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		3CD250601D52F9DC00A495DF /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		4AAD525BCC41A137673CA49A /* Pods-getup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-getup.debug.xcconfig"; path = "Pods/Target Support Files/Pods-getup/Pods-getup.debug.xcconfig"; sourceTree = "<group>"; };
+		5CF7E7A2CDF81AA4745562D2 /* Pods_getup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_getup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96D1F69D7B9D10E8CC5BECF2 /* Pods-getup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-getup.release.xcconfig"; path = "Pods/Target Support Files/Pods-getup/Pods-getup.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42D83FDE24196E0385D7EC83 /* Pods_getup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12E72FA9681916329FC0E434 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AAD525BCC41A137673CA49A /* Pods-getup.debug.xcconfig */,
+				96D1F69D7B9D10E8CC5BECF2 /* Pods-getup.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3CA558B41D4EC5EE00512966 = {
 			isa = PBXGroup;
 			children = (
 				3CA558BF1D4EC5EE00512966 /* getup */,
 				3CA558BE1D4EC5EE00512966 /* Products */,
+				12E72FA9681916329FC0E434 /* Pods */,
+				79B955192E2C98397F3262C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +98,85 @@
 		3CA558BF1D4EC5EE00512966 /* getup */ = {
 			isa = PBXGroup;
 			children = (
+				3CD2505D1D52F9B200A495DF /* Utils */,
+				3CD250521D52E46F00A495DF /* AlarmTones */,
+				3CA558DF1D4F586800512966 /* Constants */,
+				3CA558DA1D4EFC5E00512966 /* Model */,
+				3CA558D61D4ED4B200512966 /* View */,
+				3CA558D71D4EE7B600512966 /* Controller */,
 				3CA558C01D4EC5EE00512966 /* AppDelegate.swift */,
-				3CA558C21D4EC5EE00512966 /* FirstViewController.swift */,
-				3CA558C41D4EC5EE00512966 /* SecondViewController.swift */,
 				3CA558C61D4EC5EE00512966 /* Main.storyboard */,
 				3CA558C91D4EC5EE00512966 /* Assets.xcassets */,
 				3CA558CB1D4EC5EE00512966 /* LaunchScreen.storyboard */,
+				3CD250501D519DB400A495DF /* GoogleService-Info.plist */,
 				3CA558CE1D4EC5EE00512966 /* Info.plist */,
 			);
 			path = getup;
+			sourceTree = "<group>";
+		};
+		3CA558D61D4ED4B200512966 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3CA558D41D4ED4AF00512966 /* AlarmCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3CA558D71D4EE7B600512966 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3CA558C21D4EC5EE00512966 /* FirstViewController.swift */,
+				3CA558C41D4EC5EE00512966 /* SecondViewController.swift */,
+				3CA558D81D4EE7D500512966 /* SetEditAlarmViewController.swift */,
+				3CA558DD1D4F3EEE00512966 /* StopAlarmViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3CA558DA1D4EFC5E00512966 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CA558DB1D4EFC6900512966 /* Alarm.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3CA558DF1D4F586800512966 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3CA558E01D4F588000512966 /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		3CD250521D52E46F00A495DF /* AlarmTones */ = {
+			isa = PBXGroup;
+			children = (
+				3CD250531D52E99300A495DF /* 0.mp3 */,
+				3CD250541D52E99300A495DF /* 1.mp3 */,
+				3CD250551D52E99300A495DF /* 2.mp3 */,
+				3CD250561D52E99300A495DF /* 3.mp3 */,
+				3CD250571D52E99300A495DF /* 4.mp3 */,
+			);
+			name = AlarmTones;
+			sourceTree = "<group>";
+		};
+		3CD2505D1D52F9B200A495DF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3CD2505F1D52F9DC00A495DF /* UIScrollView+EmptyDataSet.h */,
+				3CD250601D52F9DC00A495DF /* UIScrollView+EmptyDataSet.m */,
+				3CD2505E1D52F9DB00A495DF /* getup-Bridging-Header.h */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		79B955192E2C98397F3262C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CF7E7A2CDF81AA4745562D2 /* Pods_getup.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CA558D11D4EC5EE00512966 /* Build configuration list for PBXNativeTarget "getup" */;
 			buildPhases = (
+				21398A5276DD7367E9F3AE92 /* [CP] Check Pods Manifest.lock */,
 				3CA558B91D4EC5EE00512966 /* Sources */,
 				3CA558BA1D4EC5EE00512966 /* Frameworks */,
 				3CA558BB1D4EC5EE00512966 /* Resources */,
+				2F09C505A1E76CF4E7E32430 /* [CP] Embed Pods Frameworks */,
+				C1D117790F43FA2C81BD91AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +214,12 @@
 				TargetAttributes = {
 					3CA558BC1D4EC5EE00512966 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 73VNGGUSQJ;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,22 +246,82 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CD2505C1D52E99300A495DF /* 4.mp3 in Resources */,
+				3CD250591D52E99300A495DF /* 1.mp3 in Resources */,
 				3CA558CD1D4EC5EE00512966 /* LaunchScreen.storyboard in Resources */,
+				3CD250581D52E99300A495DF /* 0.mp3 in Resources */,
+				3CD250511D519DB400A495DF /* GoogleService-Info.plist in Resources */,
 				3CA558CA1D4EC5EE00512966 /* Assets.xcassets in Resources */,
+				3CD2505A1D52E99300A495DF /* 2.mp3 in Resources */,
+				3CD2505B1D52E99300A495DF /* 3.mp3 in Resources */,
 				3CA558C81D4EC5EE00512966 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21398A5276DD7367E9F3AE92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2F09C505A1E76CF4E7E32430 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-getup/Pods-getup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1D117790F43FA2C81BD91AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-getup/Pods-getup-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3CA558B91D4EC5EE00512966 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CA558D91D4EE7D500512966 /* SetEditAlarmViewController.swift in Sources */,
 				3CA558C51D4EC5EE00512966 /* SecondViewController.swift in Sources */,
 				3CA558C11D4EC5EE00512966 /* AppDelegate.swift in Sources */,
+				3CA558DE1D4F3EEE00512966 /* StopAlarmViewController.swift in Sources */,
 				3CA558C31D4EC5EE00512966 /* FirstViewController.swift in Sources */,
+				3CA558D51D4ED4AF00512966 /* AlarmCell.swift in Sources */,
+				3CA558DC1D4EFC6900512966 /* Alarm.swift in Sources */,
+				3CD250611D52F9DC00A495DF /* UIScrollView+EmptyDataSet.m in Sources */,
+				3CA558E11D4F588000512966 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,23 +434,38 @@
 		};
 		3CA558D21D4EC5EE00512966 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AAD525BCC41A137673CA49A /* Pods-getup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: DANIEL HARSANYI (SZ2YP766N4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: DANIEL HARSANYI (SZ2YP766N4)";
 				INFOPLIST_FILE = getup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danharsanyi.getup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c313d9e1-8f55-41c5-89b3-3e058041c9a4";
+				SWIFT_OBJC_BRIDGING_HEADER = "getup/getup-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3CA558D31D4EC5EE00512966 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96D1F69D7B9D10E8CC5BECF2 /* Pods-getup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: DANIEL HARSANYI (73VNGGUSQJ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: DANIEL HARSANYI (73VNGGUSQJ)";
 				INFOPLIST_FILE = getup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danharsanyi.getup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c313d9e1-8f55-41c5-89b3-3e058041c9a4";
+				SWIFT_OBJC_BRIDGING_HEADER = "getup/getup-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -292,6 +488,7 @@
 				3CA558D31D4EC5EE00512966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

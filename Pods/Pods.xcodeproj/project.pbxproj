@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B347EB11F8064031AB10EF89E2FB5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		1D54E6EC43B2B4250E1FE53B0C0A6662 /* MGSwipeTableCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D65F0B179331D13AFDFDA556DAC882B6 /* MGSwipeTableCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C19E6FED540CFD93BBCA1786F0F33E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		569D057F4C7A6F69AEA4AB0BD6D9900E /* MGSwipeTableCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0306A31D4F066508F4F053999CE9FF8 /* MGSwipeTableCell-dummy.m */; };
+		57A1B052036C6DF0FE76F27B28EE43DF /* Pods-getup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D67F33951ACCE7E797D6C87E4DB9B4C5 /* Pods-getup-dummy.m */; };
+		63DC27806C23AFFC9B7115E5EEAB9CBF /* MGSwipeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D4D4B5FCF5F44CCE9FD7286A19F85AE8 /* MGSwipeButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67558B72295110F846C2420C9540A52A /* MGSwipeTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EF71D3C4992E145A5119BD53F5D40AAD /* MGSwipeTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95E41293E05A8ABB9866D6F3AED0CA10 /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D97364DE745FB95460A806D03943D5 /* MGSwipeTableCell.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C8FD669C32DE47E548CBB0153988C1E2 /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1695616B5EC1AEEFFE2B95152D712CFE /* MGSwipeButton.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E7454FEB8C91F7CDD29BD6473A9CAA1E /* Pods-getup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBB723D3A026BE7E425FD8375DC3CB64 /* Pods-getup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAE39F0D391450F6A7513CCC99F9A742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E1263BFF45F6446CF3DE29AE234C893;
+			remoteInfo = MGSwipeTableCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0436C61B3FC3DD2BA5B0F7753CC4BB1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F91C013713B7CA8A92A57709DCE6EE /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		1695616B5EC1AEEFFE2B95152D712CFE /* MGSwipeButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGSwipeButton.m; path = MGSwipeTableCell/MGSwipeButton.m; sourceTree = "<group>"; };
+		16F1D4D4A345A527A0F2E9250A7D82BB /* Pods_getup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_getup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF273A96BF3C3F46CBD6E2DDD34AFA2 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
+		46259AB298764EFC43AA9340E3C11995 /* Pods-getup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-getup.release.xcconfig"; sourceTree = "<group>"; };
+		47D97364DE745FB95460A806D03943D5 /* MGSwipeTableCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGSwipeTableCell.m; path = MGSwipeTableCell/MGSwipeTableCell.m; sourceTree = "<group>"; };
+		4EF6774CAF93C6D3D5B64FB015A92CA8 /* Pods-getup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-getup.debug.xcconfig"; sourceTree = "<group>"; };
+		61DB196B0732654C6145E5DF6BCB18E5 /* Pods-getup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-getup.modulemap"; sourceTree = "<group>"; };
+		6B9ACA7041DFA7E726A1C280527C1D89 /* MGSwipeTableCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGSwipeTableCell.xcconfig; sourceTree = "<group>"; };
+		7443B814B9EC65324886240087DA584C /* MGSwipeTableCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MGSwipeTableCell.modulemap; sourceTree = "<group>"; };
+		77630D6E8308EC6B7E04DC1ACE667D4C /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		888109C7E2775F615BA60C419E25919C /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		937AA41F6A45897F162E235B633756C8 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9629D84BC11B57ACCCF47A6704C36DFD /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		AA5CFF193ECB51A86CA6B9FA10BE2788 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		AC9E47AAEEEB2F308C4F2912C0047B04 /* Pods-getup-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-getup-resources.sh"; sourceTree = "<group>"; };
+		BC52569FF3463C4EBB50EB98FF7BA5E5 /* Pods-getup-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-getup-frameworks.sh"; sourceTree = "<group>"; };
+		C1811774F10A3B79E2DA4FB116B0BEBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF502063E32393869B4048549706E654 /* Pods-getup-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-getup-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D4D4B5FCF5F44CCE9FD7286A19F85AE8 /* MGSwipeButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGSwipeButton.h; path = MGSwipeTableCell/MGSwipeButton.h; sourceTree = "<group>"; };
+		D5A07CA06D35DC19EBBED18D2BA98815 /* Pods-getup-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-getup-acknowledgements.plist"; sourceTree = "<group>"; };
+		D65F0B179331D13AFDFDA556DAC882B6 /* MGSwipeTableCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGSwipeTableCell-umbrella.h"; sourceTree = "<group>"; };
+		D67F33951ACCE7E797D6C87E4DB9B4C5 /* Pods-getup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-getup-dummy.m"; sourceTree = "<group>"; };
+		DBB723D3A026BE7E425FD8375DC3CB64 /* Pods-getup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-getup-umbrella.h"; sourceTree = "<group>"; };
+		E0306A31D4F066508F4F053999CE9FF8 /* MGSwipeTableCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGSwipeTableCell-dummy.m"; sourceTree = "<group>"; };
+		E745C4BF1F8E9433E54DC322C19AE7E6 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
+		EF41ACA77C500E33342ED4D52E5974B1 /* MGSwipeTableCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGSwipeTableCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF71D3C4992E145A5119BD53F5D40AAD /* MGSwipeTableCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGSwipeTableCell.h; path = MGSwipeTableCell/MGSwipeTableCell.h; sourceTree = "<group>"; };
+		EFFEA8C9EA7BF7CB22BFD8A31A7E36BC /* MGSwipeTableCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGSwipeTableCell-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0271E88F65B17975F56915CAAD607F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C19E6FED540CFD93BBCA1786F0F33E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B9F6ACB1C88FE57B8AFEE2008B23D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B347EB11F8064031AB10EF89E2FB5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06505A53A56C5A52D6CFAFCDB37D1698 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77630D6E8308EC6B7E04DC1ACE667D4C /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DAC8025A06758EB17C011A9EF7912AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9629D84BC11B57ACCCF47A6704C36DFD /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E7AE39551E06D85A6D9A72F562DFD53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				937AA41F6A45897F162E235B633756C8 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		141CC19995A4605832FFDB3A28549C29 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				E745C4BF1F8E9433E54DC322C19AE7E6 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		41D68C090494B22DD0C92F27902E8D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				888109C7E2775F615BA60C419E25919C /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48D0E70881CCD1FEB4F6EF1FF0A1F370 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				98B119B4B4DA2E700599467441EBA5E0 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		4A92E3B088C3F07DB10B2F040C61956F /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				141CC19995A4605832FFDB3A28549C29 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		61B6E6D5FC926778726888656FEB5778 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F91C013713B7CA8A92A57709DCE6EE /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9BEA87468DEDD7CEB6E8BC6F8729886A /* Pods */,
+				9FCE55F96DA40B4B716EEF30240C7EBA /* Products */,
+				833999AB418AEDC71060909D94DEAFBA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		833999AB418AEDC71060909D94DEAFBA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88B30DFFEE88335CFC787A112CB2118C /* Pods-getup */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		88B30DFFEE88335CFC787A112CB2118C /* Pods-getup */ = {
+			isa = PBXGroup;
+			children = (
+				0436C61B3FC3DD2BA5B0F7753CC4BB1E /* Info.plist */,
+				61DB196B0732654C6145E5DF6BCB18E5 /* Pods-getup.modulemap */,
+				CF502063E32393869B4048549706E654 /* Pods-getup-acknowledgements.markdown */,
+				D5A07CA06D35DC19EBBED18D2BA98815 /* Pods-getup-acknowledgements.plist */,
+				D67F33951ACCE7E797D6C87E4DB9B4C5 /* Pods-getup-dummy.m */,
+				BC52569FF3463C4EBB50EB98FF7BA5E5 /* Pods-getup-frameworks.sh */,
+				AC9E47AAEEEB2F308C4F2912C0047B04 /* Pods-getup-resources.sh */,
+				DBB723D3A026BE7E425FD8375DC3CB64 /* Pods-getup-umbrella.h */,
+				4EF6774CAF93C6D3D5B64FB015A92CA8 /* Pods-getup.debug.xcconfig */,
+				46259AB298764EFC43AA9340E3C11995 /* Pods-getup.release.xcconfig */,
+			);
+			name = "Pods-getup";
+			path = "Target Support Files/Pods-getup";
+			sourceTree = "<group>";
+		};
+		98B119B4B4DA2E700599467441EBA5E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA5CFF193ECB51A86CA6B9FA10BE2788 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BEA87468DEDD7CEB6E8BC6F8729886A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A92E3B088C3F07DB10B2F040C61956F /* Firebase */,
+				48D0E70881CCD1FEB4F6EF1FF0A1F370 /* FirebaseAnalytics */,
+				EF04CB2A5B5B298316B17F926BA11BFE /* FirebaseDatabase */,
+				AAA08DD6A880C91108D27ED674111126 /* FirebaseInstanceID */,
+				A04CCDD4D68AB4468EC138EBDD54870E /* GoogleInterchangeUtilities */,
+				B60791BA67B9F74CB48DE8774CBEEB4F /* GoogleSymbolUtilities */,
+				B02BB4E10B6B4B134E8D9CC992FE021B /* GoogleUtilities */,
+				C7135E48231B4B9195519DF0DD990B82 /* MGSwipeTableCell */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9FCE55F96DA40B4B716EEF30240C7EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF41ACA77C500E33342ED4D52E5974B1 /* MGSwipeTableCell.framework */,
+				16F1D4D4A345A527A0F2E9250A7D82BB /* Pods_getup.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A04CCDD4D68AB4468EC138EBDD54870E /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				0DAC8025A06758EB17C011A9EF7912AC /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		AAA08DD6A880C91108D27ED674111126 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				2EF273A96BF3C3F46CBD6E2DDD34AFA2 /* FIRInstanceID.h */,
+				06505A53A56C5A52D6CFAFCDB37D1698 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		B02BB4E10B6B4B134E8D9CC992FE021B /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				41D68C090494B22DD0C92F27902E8D76 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		B084D6609BBBA74CD9B596FD450937BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1811774F10A3B79E2DA4FB116B0BEBD /* Info.plist */,
+				7443B814B9EC65324886240087DA584C /* MGSwipeTableCell.modulemap */,
+				6B9ACA7041DFA7E726A1C280527C1D89 /* MGSwipeTableCell.xcconfig */,
+				E0306A31D4F066508F4F053999CE9FF8 /* MGSwipeTableCell-dummy.m */,
+				EFFEA8C9EA7BF7CB22BFD8A31A7E36BC /* MGSwipeTableCell-prefix.pch */,
+				D65F0B179331D13AFDFDA556DAC882B6 /* MGSwipeTableCell-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MGSwipeTableCell";
+			sourceTree = "<group>";
+		};
+		B60791BA67B9F74CB48DE8774CBEEB4F /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				0E7AE39551E06D85A6D9A72F562DFD53 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7135E48231B4B9195519DF0DD990B82 /* MGSwipeTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				D4D4B5FCF5F44CCE9FD7286A19F85AE8 /* MGSwipeButton.h */,
+				1695616B5EC1AEEFFE2B95152D712CFE /* MGSwipeButton.m */,
+				EF71D3C4992E145A5119BD53F5D40AAD /* MGSwipeTableCell.h */,
+				47D97364DE745FB95460A806D03943D5 /* MGSwipeTableCell.m */,
+				B084D6609BBBA74CD9B596FD450937BE /* Support Files */,
+			);
+			path = MGSwipeTableCell;
+			sourceTree = "<group>";
+		};
+		EF04CB2A5B5B298316B17F926BA11BFE /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				61B6E6D5FC926778726888656FEB5778 /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E2AF813044A018AFE4BB923939B8000 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7454FEB8C91F7CDD29BD6473A9CAA1E /* Pods-getup-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E754E9D399930F33BC210A07296168D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63DC27806C23AFFC9B7115E5EEAB9CBF /* MGSwipeButton.h in Headers */,
+				1D54E6EC43B2B4250E1FE53B0C0A6662 /* MGSwipeTableCell-umbrella.h in Headers */,
+				67558B72295110F846C2420C9540A52A /* MGSwipeTableCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F542000410A67BE778A5B0FCAE00D51 /* Pods-getup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2660C6F5578B18497E837AF0685ABFC1 /* Build configuration list for PBXNativeTarget "Pods-getup" */;
+			buildPhases = (
+				C6F688B200A938AC20A0AAEF261C8EB9 /* Sources */,
+				B8B9F6ACB1C88FE57B8AFEE2008B23D8 /* Frameworks */,
+				1E2AF813044A018AFE4BB923939B8000 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBBE2562922A9C839D0072B019ECE02C /* PBXTargetDependency */,
+			);
+			name = "Pods-getup";
+			productName = "Pods-getup";
+			productReference = 16F1D4D4A345A527A0F2E9250A7D82BB /* Pods_getup.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E1263BFF45F6446CF3DE29AE234C893 /* MGSwipeTableCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B05C24F339BF84D6E16E6538A947C90 /* Build configuration list for PBXNativeTarget "MGSwipeTableCell" */;
+			buildPhases = (
+				C8C13026DC462129E945B064D7D89D95 /* Sources */,
+				AC0271E88F65B17975F56915CAAD607F /* Frameworks */,
+				1E754E9D399930F33BC210A07296168D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGSwipeTableCell;
+			productName = MGSwipeTableCell;
+			productReference = EF41ACA77C500E33342ED4D52E5974B1 /* MGSwipeTableCell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9FCE55F96DA40B4B716EEF30240C7EBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E1263BFF45F6446CF3DE29AE234C893 /* MGSwipeTableCell */,
+				1F542000410A67BE778A5B0FCAE00D51 /* Pods-getup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6F688B200A938AC20A0AAEF261C8EB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A1B052036C6DF0FE76F27B28EE43DF /* Pods-getup-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C13026DC462129E945B064D7D89D95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8FD669C32DE47E548CBB0153988C1E2 /* MGSwipeButton.m in Sources */,
+				569D057F4C7A6F69AEA4AB0BD6D9900E /* MGSwipeTableCell-dummy.m in Sources */,
+				95E41293E05A8ABB9866D6F3AED0CA10 /* MGSwipeTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBBE2562922A9C839D0072B019ECE02C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGSwipeTableCell;
+			target = 4E1263BFF45F6446CF3DE29AE234C893 /* MGSwipeTableCell */;
+			targetProxy = EAE39F0D391450F6A7513CCC99F9A742 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5670F5018932B50D3C486E33DF48CDE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B9ACA7041DFA7E726A1C280527C1D89 /* MGSwipeTableCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGSwipeTableCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MGSwipeTableCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C4FA958C71D9140DAB560BEF4422B0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF6774CAF93C6D3D5B64FB015A92CA8 /* Pods-getup.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-getup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-getup/Pods-getup.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_getup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F30C15F9C5ABC29F826EB0BF627A0FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B9ACA7041DFA7E726A1C280527C1D89 /* MGSwipeTableCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGSwipeTableCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGSwipeTableCell/MGSwipeTableCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MGSwipeTableCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3714A3251E5BFE660C2A956E26EE0B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46259AB298764EFC43AA9340E3C11995 /* Pods-getup.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-getup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-getup/Pods-getup.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_getup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2660C6F5578B18497E837AF0685ABFC1 /* Build configuration list for PBXNativeTarget "Pods-getup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4FA958C71D9140DAB560BEF4422B0D /* Debug */,
+				F3714A3251E5BFE660C2A956E26EE0B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B05C24F339BF84D6E16E6538A947C90 /* Build configuration list for PBXNativeTarget "MGSwipeTableCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30C15F9C5ABC29F826EB0BF627A0FA4 /* Debug */,
+				5670F5018932B50D3C486E33DF48CDE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
